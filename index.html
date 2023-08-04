@@ -866,5 +866,22 @@
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"  integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
     data-cf-beacon='{"rayId":"6f520c63f8f2a3b7","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
     crossorigin="anonymous"></script>
+    
+To redirect someone from one website to another after the webpage is completely loaded, you can use JavaScript. Here's an example of how you can achieve this:
+
+Open your HTML file or the webpage where you want to perform the redirect.
+
+Add the following JavaScript code within the <script> tags or in an external JavaScript file:
+
+html
+Copy code
+<script>
+  window.addEventListener('load', function () {
+    // Redirect to the desired URL after a delay (if needed)
+    setTimeout(function () {
+      window.location.href = 'https://amiteshvsth.github.io/My-Portfolio/';
+    }, 3000); 
+  });
+</script>
 </body>
 </html>
