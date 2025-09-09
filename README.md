@@ -1,2 +1,2 @@
 # My-Portfolio
-https://amiteshvsth.github.io/My-Portfolio/
+https://amiteshvsth.github.io/Portfolio-Javascript/
