@@ -52,7 +52,12 @@ To run this project locally:
 
 - Contributions, issues, and feature requests are welcome!  
 - Feel free to fork this repo and submit a pull request.
+----------
+## 😉 Checkout Other examples
 
+- Portfolio 2.0 : 👉 [Portfolio (JavaScript 2.0)](https://github.com/amiteshvsth/Portfolio-Javascript-2.0)
+- Portfolio React : 👉 [Portfolio (React)](https://amiteshvsth.github.io/Portfolio-React/)
+- Portfolio Intro : 👉 [Portfolio Intro (JavaScript)](https://amiteshvsth.github.io/Portfolio-Intro-Javascript/)
 ----------
 
 ### 👤 Author
