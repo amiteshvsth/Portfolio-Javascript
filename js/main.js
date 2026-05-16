@@ -2,7 +2,9 @@
 const contactForm = document.getElementById("contact_form");
 
 if (contactForm) {
+
     contactForm.addEventListener("submit", async function (e) {
+
         e.preventDefault();
 
         const formData = {
@@ -13,25 +15,31 @@ if (contactForm) {
         };
 
         try {
-            await fetch(
+
+            const response = await fetch(
                 "https://script.google.com/macros/s/AKfycbxaYy1qz-oIWieUSme52qGCcZaZcH5pPlGA8hp2i074BKc1bi34R-b4GQZLcnFm3YdOvQ/exec",
                 {
                     method: "POST",
-                    mode: "no-cors",
+                    body: JSON.stringify(formData),
                     headers: {
                         "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(formData)
+                    }
                 }
             );
+
+            console.log(await response.text());
 
             alert("Message sent successfully!");
 
             contactForm.reset();
 
         } catch (error) {
+
             console.error(error);
+
             alert("Failed to send message.");
         }
+
     });
+
 }
